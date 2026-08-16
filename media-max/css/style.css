@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000000;
+    color: white;
+}
+
+.container{
+    width: 100%;
+    padding: 0px 16px;
+    margin: 0 auto;
+}
+
+.row{
+    width: 100%;
+    padding: 10px 8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.align-item-center{
+    align-items: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-spacearound{
+    justify-content: space-around;
+}
+
+.justify-end{
+    justify-content: flex-end;
+}
+
+.pl-10{
+    padding-left: 10px;
+}
+
+.pr-10{
+    padding-right: 10px;
+}
+
+.pb-10{
+    padding-bottom: 10px;
+}
+
+.w-15{
+    width: 15%;
+}
+
+.w-75{
+    width: 75%;
+}
+
+ul, ol{
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+img{
+    width: 100%;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: #000000;
+}
+
+.left{
+    width: 85%;
+    /* background-color: antiquewhite; */
+}
+
+.logo{
+    width: 10%;
+}
+
+.logo img{
+    width: 50%;
+}
+
+.menu{
+    width: 90%;
+    font-size: 15px;
+}
+
+.menu-item{
+    margin: 18px;
+}
+
+.menu-item .menu-item-link{
+    color: #bebaba;
+    transition: all 0.5s;
+}
+
+.menu-item .menu-item-link:hover{
+    color: white;
+    font-weight: bold;
+}
+
+.right{
+    width: 15%;
+    /* background-color: aliceblue; */
+}
+
+.right .icon{
+    color: white;
+    transition: all 0.5s;
+}
+
+.right .icon:hover{
+    color: #bebaba;
+}
+
+.search .icon{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.person, .heart, .cart{
+    color: white;
+}
+
+.section{
+    padding: 7px;
+    font-size: 14px;
+    /* position: sticky; */
+    bottom: 0;
+    background-color: #000000;
+}
+
+.card-items .card-item{
+    width: 50%;
+    /* background-color: antiquewhite; */
+}
+
+h2{
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.footer{
+    padding: 80px 0 40px ;
+}
+
+.footer-col{
+    width: 23%;
+}
+
+.footer-col h3{
+    font-size: 22px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.footer-col ul li{
+    margin-bottom: 13px;
+}
+
+.footer-col ul li a{
+    color: #d6d6d6;
+    font-size: 16px;
+}
+
+.footer-col ul li a:hover{
+    color: #fff;
+}
+
+.member p{
+    color: #d6d6d6;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.member a{
+    color: #fff;
+    text-decoration: underline;
+    font-weight: 600;
+}
