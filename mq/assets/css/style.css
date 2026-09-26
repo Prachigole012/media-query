@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.col-1{width:8.33%}
+.col-2{width:16.66%}
+.col-3{width:25%}
+.col-4{width:33.33%}
+.col-5{width:41.66%}
+.col-6{width:50%}
+.col-7{width:58.33%}
+.col-8{width:66.66%}
+.col-9{width:75%}
+.col-10{width:83.33%}
+.col-11{width:91.66%}
+.col-12{width:100%}
+.container {
+    max-width: 1320px;
+    margin: auto;
+}
+body {
+    font-family: Arial, sans-serif;
+    color: #222;
+    background-color: #ffffff;
+}
+a {
+    text-decoration: none;
+    color: #222;
+}
+button {
+    border: none;
+    cursor: pointer;
+}
+header {
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid #eeeeee;
+}
+.navbar {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-center {
+    align-items: center;
+}
+.f-black {
+    color: black;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo i {
+    color: #e63946;
+    font-size: 25px;
+}
+.logo h2 {
+    font-size: 24px;
+}
+nav {
+    display: flex;
+    gap: 35px;
+}
+nav a {
+    font-size: 16px;
+}
+nav a:hover {
+    color: #e63946;
+}
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-buttons i {
+    font-size: 20px;
+}
+.nav-buttons button,.hero button,.price-book button {
+    background-color: #e63946;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.nav-buttons button:hover,.hero button:hover,.price-book button:hover {
+    background-color: #c92f3b;
+}
+.hero {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.45)), url("../image/hero-image.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.hero-content {
+    width: 90%;
+    margin: auto;
+    color: white;
+}
+.hero-content h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.hero-content p {
+    width: 550px;
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+.rooms {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 70px 0;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.section-title h2 {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+.section-title p {
+    color: #777;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.room-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.room-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+.room-details {
+    padding: 20px;
+}
+.room-details h3 {
+    margin-bottom: 10px;
+}
+.room-details p {
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+.room-info {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.room-info i {
+    color: red;
+}
+.price-book {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.price-book h4 {
+    font-size: 20px;
+}
+.price-book small {
+    color: #777;
+}
+.price-book button {
+    background: red;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 5px;
+}
+footer {
+    background: #222;
+    color: white;
+    padding-top: 50px;
+}
+.footer-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    gap: 30px;
+}
+.footer-box {
+    width: 20%;
+}
+.footer-box h3 {
+    margin-bottom: 15px;
+}
+.footer-box p {
+    color: #bbb;
+    line-height: 1.7;
+}
+.footer-box a {
+    display: block;
+    color: #bbb;
+    margin-bottom: 8px;
+}
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+.footer-logo i {
+    color: red;
+}
+.instagram {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+}
+.instagram img {
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+}
+.newsletter {
+    width: 100%;
+}
+.newsletter form {
+    display: flex;
+    margin-top: 15px;
+}
+.newsletter input {
+    width: 300px;
+    padding: 12px;
+    border: none;
+    outline: none;
+}
+.newsletter button {
+    background: red;
+    color: white;
+    padding: 12px 18px;
+}
+.style-footer{
+    color: #60697B;
+    font-size: 16px; 
+    font-weight: 500;
+    line-height: 1.5;
+   padding-bottom: 10px;
+    
+}
+.style-footer{
+    font-weight: 700;
+}
+.copyright {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    border-top: 1px solid #444;
+    color: #aaaaaa;
+}
